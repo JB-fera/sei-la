@@ -1,7 +1,5 @@
 CREATE DATABASE revenda_joaoB;
 
--- use o banco revenda_joaoB antes de criar as tabelas
-
 CREATE TABLE endereco(
     endereco_id SERIAL PRIMARY KEY,
     bairro VARCHAR(20) NOT NULL,
@@ -142,4 +140,5 @@ INSERT INTO funcionario (nome, cargo, cpf, data_nascimento) VALUES
 SELECT * FROM clientes_ativos;
 
 SELECT * FROM fornecedores_com_endereco;
+
 
